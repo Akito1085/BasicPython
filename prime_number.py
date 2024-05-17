@@ -1,11 +1,8 @@
 def prime_number(n):
-    judge=True
     for i in range(2,n):
         if n%i==0:
-            judge=False
-            
-            
-    return judge==True
+            return False     
+    return True
 
 n =int(input("nの値を入力: "))
 if n>0:
