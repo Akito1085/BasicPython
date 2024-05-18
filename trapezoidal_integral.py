@@ -17,7 +17,7 @@ def trapexoidal_integral(f,a=0,b=1,N=100):
 def f1(x):
     return sin (x)
 
-print(trapexoidal_integral(f1,N=50))
+print(trapexoidal_integral(f1,a=0,b=pi/2,N=50))
 #問2
 def f2(x):
     return 4/(1+x**2)
