@@ -1,6 +1,6 @@
 def prime_number(n):
     if n<=1:
-        return print("1以外の正の整数を入力してください")
+        return False
     else:
         for i in range(2,n):
             if n%i==0:
