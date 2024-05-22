@@ -1,3 +1,4 @@
+
 def prime_number(n):
     if n<=1:
         return False
@@ -7,10 +8,8 @@ def prime_number(n):
                 return False     
         return True
 
+
 n =int(input("nの値を入力: "))
 print(prime_number(n)) 
 
-
-
-# TODO
 
